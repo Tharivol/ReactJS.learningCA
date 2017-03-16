@@ -1,0 +1,13 @@
+The first argument in ReactDOM.render is appended to the second argument
+
+ReactDOM——————Javascript Library—Contains React specific methods
+
+ReactDOM.render(	)
+	ReactDOM.render is the most common way to render JSX. It takes a JSX expression, creates a 
+		corresponding tree of DOM nodes, and adds that tree to the DOM. That is the way to make a JSX
+ 		expression appear onscreen.	
+
+
+ ReactDOM.render only updates DOM elements that have changed.
+ Only updating the necessary DOM elements is a large part of what makes React successful.
+ 	***This works because of the virtual DOM***
